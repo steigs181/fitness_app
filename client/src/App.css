@@ -1,6 +1,107 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+
+.navbar-main {
+  color: white;
+}
+
+.navbar-main:hover {
+  color: peachpuff
+}
+
+#navbarScrollingDropDown {
+  color: white;
+}
+
+#nav-drop {
+  display: flex;
+  position: fixed;
+  right: 10px;
+}
+
+#card-main {
+  position: fixed;
+  top: 50px;
+  left: 400px;
+  margin-top: 30px;
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-title {
+  margin-top: 30px;
+  font-size: 60px;
+  display: flex;
+  align-self: center;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#floatingInputCustom {
+  background-color: lightgray;
+}
+
+.error-text {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #CCD1D1 !important;
+}
+
+.row-1 {
+  margin: 40px;
+  display: flex;
+}
+
+.col-1 {
+  flex: 2;
+}
+
+.col-2 {
+  flex: 1;
+}
+
+.workout-card {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.workout-title {
+  width: 100%;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display:flex;
+  justify-content: space-between;
+  font-size: 30px;
+  border-bottom: 2px solid #CDCDCD;
+}
+
+.workout-body {
+  font-size: 2rem;
+
+}
+
+.workout-text {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.workout-text:hover {
+  background-color: aquamarine;
+}
+
+.view-row {
+  width: 90%;
+  position: fixed;
+  top: 75px;
+  left: 100px;
+}
+
+.view-card {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
