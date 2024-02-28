@@ -1,0 +1,11 @@
+Description of the project: The project I have chosen to do is creating a fitness app that allows users to create an account and search workout movements and save them to there profile, the data used is through a free API I found on rapidAPI.com. The user will also be able to edit there own profile information.
+Which stack are you building it in? JavaScript
+Project is on GitHub: { https://github.com/steigs181/fitness_app }
+.gitignore file in root folder: { I will have it }
+All of CRUD* on a non-User table: { Create, Read, Update, Delete. This will be done through the user being able to create a profile, update the information associated with it, and favorite/unfavorite workouts }
+CSS implemented, and possibly other static content: { I plan to use mostly bootstrap however will be playing with some others as well. }
+Data is validated upon create and edit, errors show: { Yes }
+Python & Java also need the following:
+Login and Registration with validations: { This will be included in my JavaScript }
+Protected routes (Must be logged in to view): { This will also be in my JavaScript }
+One-to-many relationship: { One user can have many favorited workouts }
